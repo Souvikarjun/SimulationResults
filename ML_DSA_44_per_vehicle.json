@@ -1,0 +1,458 @@
+{
+  "report_type": "per_vehicle_performance_analysis",
+  "input_file": "ML_DSA_44.json",
+  "run_count": 4,
+  "calculation_notes": {
+    "per_vehicle_timing": "Run total timing in microseconds divided by that run's vehicle count.",
+    "per_vehicle_counters": "Recorded counter divided by that run's vehicle count.",
+    "per_vehicle_per_second_of_run_us": "Per-vehicle timing divided by run duration in seconds; a normalized rate, not wall-clock latency.",
+    "summary_average": "Unweighted arithmetic mean of the available per-run per-vehicle values; runs without timing data are excluded.",
+    "missing_values": "Unavailable values are JSON null and are not treated as zero."
+  },
+  "summary_average_per_vehicle": {
+    "execution_time_us": {
+      "unweighted_mean_per_vehicle_us": 997626.2416666666,
+      "runs_included": 3
+    },
+    "key_generation_time_us": {
+      "unweighted_mean_per_vehicle_us": 18.0,
+      "runs_included": 3
+    },
+    "encryption_time_us": {
+      "unweighted_mean_per_vehicle_us": 112000.0,
+      "runs_included": 3
+    },
+    "decryption_time_us": {
+      "unweighted_mean_per_vehicle_us": 17138367.534375,
+      "runs_included": 4
+    },
+    "signing_time_us": {
+      "unweighted_mean_per_vehicle_us": 115500.0,
+      "runs_included": 4
+    }
+  },
+  "runs": [
+    {
+      "run_number": 1,
+      "experiment": "baseline",
+      "algorithm": "ML-DSA-44",
+      "vehicles": 50,
+      "duration_seconds": 60.0,
+      "message_rate_hz": 10.0,
+      "timings": {
+        "total_us": {
+          "execution_time_us": 2573110.0,
+          "key_generation_time_us": 900.0,
+          "encryption_time_us": 3150000.0,
+          "decryption_time_us": 49748800.0,
+          "signing_time_us": 3150000.0
+        },
+        "per_vehicle_us": {
+          "execution_time_us": 51462.2,
+          "key_generation_time_us": 18.0,
+          "encryption_time_us": 63000.0,
+          "decryption_time_us": 994976.0,
+          "signing_time_us": 63000.0
+        },
+        "per_vehicle_ms": {
+          "execution_time_us": 51.462199999999996,
+          "key_generation_time_us": 0.018,
+          "encryption_time_us": 63.0,
+          "decryption_time_us": 994.976,
+          "signing_time_us": 63.0
+        },
+        "source_fields": {
+          "execution_time_us": "result.execution_time_us",
+          "key_generation_time_us": "result.key_generation_time_us",
+          "encryption_time_us": "result.encryption_time_us",
+          "decryption_time_us": "result.decryption_time_us",
+          "signing_time_us": "result.signing_time_us"
+        },
+        "per_vehicle_per_second_of_run_us": {
+          "execution_time_us": 857.7033333333333,
+          "key_generation_time_us": 0.3,
+          "encryption_time_us": 1050.0,
+          "decryption_time_us": 16582.933333333334,
+          "signing_time_us": 1050.0
+        }
+      },
+      "per_vehicle_counters": {
+        "generated": 600.0,
+        "delivery_attempts": 30000.0,
+        "rsu_delivery_attempts": 600.0,
+        "delivered": 6419.2,
+        "rsu_delivered": 164.84,
+        "verified": 6419.2,
+        "rejected": 0.0,
+        "replay_detected": 0.0,
+        "tamper_detected": 0.0,
+        "channel_loss": 132.8,
+        "out_of_range": 23448.0,
+        "bytes_on_wire": 16102088.92
+      },
+      "rates": {
+        "delivery_events_per_generated_message": 10.698666666666666,
+        "verified_per_delivered": 1.0,
+        "delivered_per_delivery_attempt": 0.21397333333333332,
+        "generated_messages_per_second": 500.0,
+        "wire_bytes_per_second": 13418407.433333334
+      },
+      "security_and_resource_metrics": {
+        "execution_type": "modeled_pqc",
+        "memory_usage_bytes": 314600,
+        "forge_attempts": 0,
+        "forged_accepted": 0,
+        "forgeability_ratio": 0.0
+      },
+      "source_record": {
+        "experiment": "baseline",
+        "algorithm": "ML-DSA-44",
+        "vehicles": 50,
+        "duration_seconds": 60.0,
+        "message_rate_hz": 10.0,
+        "seed": 42,
+        "generated": 30000,
+        "delivery_attempts": 1500000,
+        "rsu_delivery_attempts": 30000,
+        "delivered": 320960,
+        "rsu_delivered": 8242,
+        "verified": 320960,
+        "rejected": 0,
+        "replay_detected": 0,
+        "tamper_detected": 0,
+        "channel_loss": 6640,
+        "out_of_range": 1172400,
+        "bytes_on_wire": 805104446,
+        "result": {
+          "execution_type": "modeled_pqc",
+          "timeframe_seconds": 60.0,
+          "total_vehicles": 50,
+          "execution_time_us": 2573110.0,
+          "key_generation_time_us": 900.0,
+          "encryption_time_us": 3150000.0,
+          "decryption_time_us": 49748800.0,
+          "signing_time_us": 3150000.0,
+          "memory_usage_bytes": 314600,
+          "forge_attempts": 0,
+          "forged_accepted": 0,
+          "forgeability_ratio": 0.0
+        },
+        "signing_us": 3150000.0,
+        "verification_us": 49748800.0
+      }
+    },
+    {
+      "run_number": 2,
+      "experiment": "baseline",
+      "algorithm": "ML-DSA-44",
+      "vehicles": 200,
+      "duration_seconds": 60.0,
+      "message_rate_hz": 10.0,
+      "timings": {
+        "total_us": {
+          "execution_time_us": 36045978.0,
+          "key_generation_time_us": 3600.0,
+          "encryption_time_us": 12600000.0,
+          "decryption_time_us": 758779870.0,
+          "signing_time_us": 12600000.0
+        },
+        "per_vehicle_us": {
+          "execution_time_us": 180229.89,
+          "key_generation_time_us": 18.0,
+          "encryption_time_us": 63000.0,
+          "decryption_time_us": 3793899.35,
+          "signing_time_us": 63000.0
+        },
+        "per_vehicle_ms": {
+          "execution_time_us": 180.22989,
+          "key_generation_time_us": 0.018,
+          "encryption_time_us": 63.0,
+          "decryption_time_us": 3793.89935,
+          "signing_time_us": 63.0
+        },
+        "source_fields": {
+          "execution_time_us": "result.execution_time_us",
+          "key_generation_time_us": "result.key_generation_time_us",
+          "encryption_time_us": "result.encryption_time_us",
+          "decryption_time_us": "result.decryption_time_us",
+          "signing_time_us": "result.signing_time_us"
+        },
+        "per_vehicle_per_second_of_run_us": {
+          "execution_time_us": 3003.8315000000002,
+          "key_generation_time_us": 0.3,
+          "encryption_time_us": 1050.0,
+          "decryption_time_us": 63231.65583333334,
+          "signing_time_us": 1050.0
+        }
+      },
+      "per_vehicle_counters": {
+        "generated": 600.0,
+        "delivery_attempts": 120000.0,
+        "rsu_delivery_attempts": 600.0,
+        "delivered": 24476.77,
+        "rsu_delivered": 170.545,
+        "verified": 24476.77,
+        "rejected": 0.0,
+        "replay_detected": 0.0,
+        "tamper_detected": 0.0,
+        "channel_loss": 501.23,
+        "out_of_range": 95022.0,
+        "bytes_on_wire": 61428052.305
+      },
+      "rates": {
+        "delivery_events_per_generated_message": 40.79461666666667,
+        "verified_per_delivered": 1.0,
+        "delivered_per_delivery_attempt": 0.20397308333333333,
+        "generated_messages_per_second": 2000.0,
+        "wire_bytes_per_second": 204760174.35
+      },
+      "security_and_resource_metrics": {
+        "execution_type": "modeled_pqc",
+        "memory_usage_bytes": 1258400,
+        "forge_attempts": 0,
+        "forged_accepted": 0,
+        "forgeability_ratio": 0.0
+      },
+      "source_record": {
+        "experiment": "baseline",
+        "algorithm": "ML-DSA-44",
+        "vehicles": 200,
+        "duration_seconds": 60.0,
+        "message_rate_hz": 10.0,
+        "seed": 42,
+        "generated": 120000,
+        "delivery_attempts": 24000000,
+        "rsu_delivery_attempts": 120000,
+        "delivered": 4895354,
+        "rsu_delivered": 34109,
+        "verified": 4895354,
+        "rejected": 0,
+        "replay_detected": 0,
+        "tamper_detected": 0,
+        "channel_loss": 100246,
+        "out_of_range": 19004400,
+        "bytes_on_wire": 12285610461,
+        "result": {
+          "execution_type": "modeled_pqc",
+          "timeframe_seconds": 60.0,
+          "total_vehicles": 200,
+          "execution_time_us": 36045978.0,
+          "key_generation_time_us": 3600.0,
+          "encryption_time_us": 12600000.0,
+          "decryption_time_us": 758779870.0,
+          "signing_time_us": 12600000.0,
+          "memory_usage_bytes": 1258400,
+          "forge_attempts": 0,
+          "forged_accepted": 0,
+          "forgeability_ratio": 0.0
+        },
+        "signing_us": 12600000.0,
+        "verification_us": 758779870.0
+      }
+    },
+    {
+      "run_number": 3,
+      "experiment": "baseline",
+      "algorithm": "ML-DSA-44",
+      "vehicles": 200,
+      "duration_seconds": 120.0,
+      "message_rate_hz": 10.0,
+      "timings": {
+        "total_us": {
+          "execution_time_us": null,
+          "key_generation_time_us": null,
+          "encryption_time_us": null,
+          "decryption_time_us": 1517558810.0,
+          "signing_time_us": 25200000.0
+        },
+        "per_vehicle_us": {
+          "execution_time_us": null,
+          "key_generation_time_us": null,
+          "encryption_time_us": null,
+          "decryption_time_us": 7587794.05,
+          "signing_time_us": 126000.0
+        },
+        "per_vehicle_ms": {
+          "execution_time_us": null,
+          "key_generation_time_us": null,
+          "encryption_time_us": null,
+          "decryption_time_us": 7587.7940499999995,
+          "signing_time_us": 126.0
+        },
+        "source_fields": {
+          "execution_time_us": null,
+          "key_generation_time_us": null,
+          "encryption_time_us": null,
+          "decryption_time_us": "verification_us",
+          "signing_time_us": "signing_us"
+        },
+        "per_vehicle_per_second_of_run_us": {
+          "execution_time_us": null,
+          "key_generation_time_us": null,
+          "encryption_time_us": null,
+          "decryption_time_us": 63231.61708333333,
+          "signing_time_us": 1050.0
+        }
+      },
+      "per_vehicle_counters": {
+        "generated": 1200.0,
+        "delivery_attempts": 240000.0,
+        "rsu_delivery_attempts": 1200.0,
+        "delivered": 48953.51,
+        "rsu_delivered": 341.045,
+        "verified": 48953.51,
+        "rejected": 0.0,
+        "replay_detected": 0.0,
+        "tamper_detected": 0.0,
+        "channel_loss": 1002.49,
+        "out_of_range": 190044.0,
+        "bytes_on_wire": 122903577.21
+      },
+      "rates": {
+        "delivery_events_per_generated_message": 40.79459166666667,
+        "verified_per_delivered": 1.0,
+        "delivered_per_delivery_attempt": 0.20397295833333334,
+        "generated_messages_per_second": 2000.0,
+        "wire_bytes_per_second": 204839295.35
+      },
+      "security_and_resource_metrics": {
+        "execution_type": null,
+        "memory_usage_bytes": null,
+        "forge_attempts": null,
+        "forged_accepted": null,
+        "forgeability_ratio": null
+      },
+      "source_record": {
+        "experiment": "baseline",
+        "algorithm": "ML-DSA-44",
+        "vehicles": 200,
+        "duration_seconds": 120.0,
+        "message_rate_hz": 10.0,
+        "seed": 42,
+        "generated": 240000,
+        "delivery_attempts": 48000000,
+        "rsu_delivery_attempts": 240000,
+        "delivered": 9790702,
+        "rsu_delivered": 68209,
+        "verified": 9790702,
+        "rejected": 0,
+        "replay_detected": 0,
+        "tamper_detected": 0,
+        "channel_loss": 200498,
+        "out_of_range": 38008800,
+        "bytes_on_wire": 24580715442,
+        "signing_us": 25200000.0,
+        "verification_us": 1517558810.0
+      }
+    },
+    {
+      "run_number": 4,
+      "experiment": "baseline",
+      "algorithm": "ML-DSA-44",
+      "vehicles": 400,
+      "duration_seconds": 200.0,
+      "message_rate_hz": 10.0,
+      "timings": {
+        "total_us": {
+          "execution_time_us": 1104474654.0,
+          "key_generation_time_us": 7200.0,
+          "encryption_time_us": 84000000.0,
+          "decryption_time_us": 22470720295.0,
+          "signing_time_us": 84000000.0
+        },
+        "per_vehicle_us": {
+          "execution_time_us": 2761186.635,
+          "key_generation_time_us": 18.0,
+          "encryption_time_us": 210000.0,
+          "decryption_time_us": 56176800.7375,
+          "signing_time_us": 210000.0
+        },
+        "per_vehicle_ms": {
+          "execution_time_us": 2761.1866349999996,
+          "key_generation_time_us": 0.018,
+          "encryption_time_us": 210.0,
+          "decryption_time_us": 56176.800737499994,
+          "signing_time_us": 210.0
+        },
+        "source_fields": {
+          "execution_time_us": "result.execution_time_us",
+          "key_generation_time_us": "result.key_generation_time_us",
+          "encryption_time_us": "result.encryption_time_us",
+          "decryption_time_us": "result.decryption_time_us",
+          "signing_time_us": "result.signing_time_us"
+        },
+        "per_vehicle_per_second_of_run_us": {
+          "execution_time_us": 13805.933174999998,
+          "key_generation_time_us": 0.09,
+          "encryption_time_us": 1050.0,
+          "decryption_time_us": 280884.00368749996,
+          "signing_time_us": 1050.0
+        }
+      },
+      "per_vehicle_counters": {
+        "generated": 2000.0,
+        "delivery_attempts": 800000.0,
+        "rsu_delivery_attempts": 2000.0,
+        "delivered": 362430.9725,
+        "rsu_delivered": 1494.4775,
+        "verified": 362430.9725,
+        "rejected": 0.0,
+        "replay_detected": 0.0,
+        "tamper_detected": 0.0,
+        "channel_loss": 7394.0275,
+        "out_of_range": 430175.0,
+        "bytes_on_wire": 910433461.2425
+      },
+      "rates": {
+        "delivery_events_per_generated_message": 181.21548625,
+        "verified_per_delivered": 1.0,
+        "delivered_per_delivery_attempt": 0.453038715625,
+        "generated_messages_per_second": 4000.0,
+        "wire_bytes_per_second": 1820866922.485
+      },
+      "security_and_resource_metrics": {
+        "execution_type": "modeled_pqc",
+        "memory_usage_bytes": 2516800,
+        "forge_attempts": 0,
+        "forged_accepted": 0,
+        "forgeability_ratio": 0.0
+      },
+      "source_record": {
+        "experiment": "baseline",
+        "algorithm": "ML-DSA-44",
+        "vehicles": 400,
+        "duration_seconds": 200.0,
+        "message_rate_hz": 10.0,
+        "seed": 42,
+        "generated": 800000,
+        "delivery_attempts": 320000000,
+        "rsu_delivery_attempts": 800000,
+        "delivered": 144972389,
+        "rsu_delivered": 597791,
+        "verified": 144972389,
+        "rejected": 0,
+        "replay_detected": 0,
+        "tamper_detected": 0,
+        "channel_loss": 2957611,
+        "out_of_range": 172070000,
+        "bytes_on_wire": 364173384497,
+        "result": {
+          "execution_type": "modeled_pqc",
+          "timeframe_seconds": 200.0,
+          "total_vehicles": 400,
+          "execution_time_us": 1104474654.0,
+          "key_generation_time_us": 7200.0,
+          "encryption_time_us": 84000000.0,
+          "decryption_time_us": 22470720295.0,
+          "signing_time_us": 84000000.0,
+          "memory_usage_bytes": 2516800,
+          "forge_attempts": 0,
+          "forged_accepted": 0,
+          "forgeability_ratio": 0.0
+        },
+        "signing_us": 84000000.0,
+        "verification_us": 22470720295.0
+      }
+    }
+  ]
+}
