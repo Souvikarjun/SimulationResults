@@ -1,9 +1,9 @@
 {
-  "input_file": "ML_KEM_512.json",
+  "input_file": "SHA_DSA.json",
   "calculation": "Each run's total timing is divided by its vehicle count; averages are across runs with available data.",
   "average_per_vehicle": {
     "execution_time_us": {
-      "average_per_vehicle_us": 374420.2730921052,
+      "average_per_vehicle_us": 362449.2890131579,
       "runs_used": 38
     },
     "key_generation_time_us": {
@@ -11,19 +11,19 @@
       "runs_used": 38
     },
     "encryption_time_us": {
-      "average_per_vehicle_us": 54473.68421052631,
+      "average_per_vehicle_us": 42315.78947368421,
       "runs_used": 38
     },
     "decryption_time_us": {
-      "average_per_vehicle_us": 3047459.8092105263,
+      "average_per_vehicle_us": 2243064.74,
       "runs_used": 38
     },
     "signing_time_us": {
-      "average_per_vehicle_us": 54473.68421052631,
+      "average_per_vehicle_us": 42315.78947368421,
       "runs_used": 38
     },
     "verification_us": {
-      "average_per_vehicle_us": 3047459.8092105263,
+      "average_per_vehicle_us": 2243064.74,
       "runs_used": 38
     }
   }

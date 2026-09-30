@@ -1,29 +1,29 @@
 {
-  "input_file": "ML_DSA_44.json",
+  "input_file": "FALCON_512.json",
   "calculation": "Each run's total timing is divided by its vehicle count; averages are across runs with available data.",
   "average_per_vehicle": {
     "execution_time_us": {
-      "average_per_vehicle_us": 376842.22675000003,
+      "average_per_vehicle_us": 401044.61237499997,
       "runs_used": 40
     },
     "key_generation_time_us": {
-      "average_per_vehicle_us": 18.0,
+      "average_per_vehicle_us": 14.0,
       "runs_used": 40
     },
     "encryption_time_us": {
-      "average_per_vehicle_us": 113400.0,
+      "average_per_vehicle_us": 88560.0,
       "runs_used": 40
     },
     "decryption_time_us": {
-      "average_per_vehicle_us": 6668301.6646875,
+      "average_per_vehicle_us": 4130044.9020000002,
       "runs_used": 40
     },
     "signing_time_us": {
-      "average_per_vehicle_us": 113400.0,
+      "average_per_vehicle_us": 88560.0,
       "runs_used": 40
     },
     "verification_us": {
-      "average_per_vehicle_us": 6668301.6646875,
+      "average_per_vehicle_us": 4130044.9020000002,
       "runs_used": 40
     }
   }
