@@ -15,8 +15,8 @@ TIMING_FIELDS = (
 
 def main() -> None:
     folder = Path(__file__).resolve().parent
-    input_path = folder / "ML_DSA_44.json"
-    output_path = folder / "ML_DSA_44_average_results.json"
+    input_path = folder / "ML_KEM_512.json"
+    output_path = folder / "ML_KEM_512_average_results.json"
 
     with input_path.open("r", encoding="utf-8") as source_file:
         records = json.load(source_file)

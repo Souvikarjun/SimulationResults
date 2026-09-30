@@ -1,0 +1,1020 @@
+{
+  "input_file": "ML_KEM_512.json",
+  "calculation": "Each run's total timing is divided by its vehicle count; averages are across runs with available data.",
+  "average_per_vehicle": {
+    "execution_time_us": {
+      "average_per_vehicle_us": 374420.2730921052,
+      "runs_used": 38
+    },
+    "key_generation_time_us": {
+      "average_per_vehicle_us": 10.0,
+      "runs_used": 38
+    },
+    "encryption_time_us": {
+      "average_per_vehicle_us": 54473.68421052631,
+      "runs_used": 38
+    },
+    "decryption_time_us": {
+      "average_per_vehicle_us": 3047459.8092105263,
+      "runs_used": 38
+    },
+    "signing_time_us": {
+      "average_per_vehicle_us": 54473.68421052631,
+      "runs_used": 38
+    },
+    "verification_us": {
+      "average_per_vehicle_us": 3047459.8092105263,
+      "runs_used": 38
+    }
+  },
+  "runs": [
+    {
+      "run_number": 1,
+      "vehicles": 50,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 2650250.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 1500000.0,
+        "decryption_time_us": 22467200.0,
+        "signing_time_us": 1500000.0,
+        "verification_us": 22467200.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 53005.0,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 449344.0,
+        "signing_time_us": 30000.0,
+        "verification_us": 449344.0
+      },
+      "generated_messages": 30000,
+      "delivered_messages": 320960,
+      "verified_messages": 320960,
+      "bytes_on_wire": 274878526,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 2,
+      "vehicles": 50,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 2658314.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 1500000.0,
+        "decryption_time_us": 22702680.0,
+        "signing_time_us": 1500000.0,
+        "verification_us": 22702680.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 53166.28,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 454053.6,
+        "signing_time_us": 30000.0,
+        "verification_us": 454053.6
+      },
+      "generated_messages": 30000,
+      "delivered_messages": 324324,
+      "verified_messages": 324324,
+      "bytes_on_wire": 277759528,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 3,
+      "vehicles": 50,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 2962137.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 1500000.0,
+        "decryption_time_us": 24250940.0,
+        "signing_time_us": 1500000.0,
+        "verification_us": 24250940.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 59242.74,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 485018.8,
+        "signing_time_us": 30000.0,
+        "verification_us": 485018.8
+      },
+      "generated_messages": 30000,
+      "delivered_messages": 346442,
+      "verified_messages": 346442,
+      "bytes_on_wire": 296788973,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 4,
+      "vehicles": 50,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 3088955.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 1500000.0,
+        "decryption_time_us": 24490970.0,
+        "signing_time_us": 1500000.0,
+        "verification_us": 24490970.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 61779.1,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 489819.4,
+        "signing_time_us": 30000.0,
+        "verification_us": 489819.4
+      },
+      "generated_messages": 30000,
+      "delivered_messages": 349871,
+      "verified_messages": 349871,
+      "bytes_on_wire": 299726640,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 5,
+      "vehicles": 50,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 5392887.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 3000000.0,
+        "decryption_time_us": 44942170.0,
+        "signing_time_us": 3000000.0,
+        "verification_us": 44942170.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 107857.74,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 898843.4,
+        "signing_time_us": 60000.0,
+        "verification_us": 898843.4
+      },
+      "generated_messages": 60000,
+      "delivered_messages": 642031,
+      "verified_messages": 642031,
+      "bytes_on_wire": 550297315,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 6,
+      "vehicles": 50,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 5648251.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 3000000.0,
+        "decryption_time_us": 45406550.0,
+        "signing_time_us": 3000000.0,
+        "verification_us": 45406550.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 112965.02,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 908131.0,
+        "signing_time_us": 60000.0,
+        "verification_us": 908131.0
+      },
+      "generated_messages": 60000,
+      "delivered_messages": 648665,
+      "verified_messages": 648665,
+      "bytes_on_wire": 555983421,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 7,
+      "vehicles": 50,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 6575012.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 3000000.0,
+        "decryption_time_us": 48485360.0,
+        "signing_time_us": 3000000.0,
+        "verification_us": 48485360.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 131500.24,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 969707.2,
+        "signing_time_us": 60000.0,
+        "verification_us": 969707.2
+      },
+      "generated_messages": 60000,
+      "delivered_messages": 692648,
+      "verified_messages": 692648,
+      "bytes_on_wire": 593855744,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 8,
+      "vehicles": 50,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 8952926.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 4500000.0,
+        "decryption_time_us": 67410280.0,
+        "signing_time_us": 4500000.0,
+        "verification_us": 67410280.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 179058.52,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 1348205.6,
+        "signing_time_us": 90000.0,
+        "verification_us": 1348205.6
+      },
+      "generated_messages": 90000,
+      "delivered_messages": 963004,
+      "verified_messages": 963004,
+      "bytes_on_wire": 826060060,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 9,
+      "vehicles": 50,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 10497848.0,
+        "key_generation_time_us": 500.0,
+        "encryption_time_us": 4500000.0,
+        "decryption_time_us": 72721110.0,
+        "signing_time_us": 4500000.0,
+        "verification_us": 72721110.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 209956.96,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 1454422.2,
+        "signing_time_us": 90000.0,
+        "verification_us": 1454422.2
+      },
+      "generated_messages": 90000,
+      "delivered_messages": 1038873,
+      "verified_messages": 1038873,
+      "bytes_on_wire": 891400546,
+      "memory_usage_bytes": 160000
+    },
+    {
+      "run_number": 10,
+      "vehicles": 100,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 10034658.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 3000000.0,
+        "decryption_time_us": 86922990.0,
+        "signing_time_us": 3000000.0,
+        "verification_us": 86922990.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 100346.58,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 869229.9,
+        "signing_time_us": 30000.0,
+        "verification_us": 869229.9
+      },
+      "generated_messages": 60000,
+      "delivered_messages": 1241757,
+      "verified_messages": 1241757,
+      "bytes_on_wire": 1063887852,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 11,
+      "vehicles": 100,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 10621898.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 3000000.0,
+        "decryption_time_us": 87824450.0,
+        "signing_time_us": 3000000.0,
+        "verification_us": 87824450.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 106218.98,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 878244.5,
+        "signing_time_us": 30000.0,
+        "verification_us": 878244.5
+      },
+      "generated_messages": 60000,
+      "delivered_messages": 1254635,
+      "verified_messages": 1254635,
+      "bytes_on_wire": 1074921270,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 12,
+      "vehicles": 100,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 10730283.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 3000000.0,
+        "decryption_time_us": 92275400.0,
+        "signing_time_us": 3000000.0,
+        "verification_us": 92275400.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 107302.83,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 922754.0,
+        "signing_time_us": 30000.0,
+        "verification_us": 922754.0
+      },
+      "generated_messages": 60000,
+      "delivered_messages": 1318220,
+      "verified_messages": 1318220,
+      "bytes_on_wire": 1129664700,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 13,
+      "vehicles": 100,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 10574970.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 3000000.0,
+        "decryption_time_us": 93220750.0,
+        "signing_time_us": 3000000.0,
+        "verification_us": 93220750.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 105749.7,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 932207.5,
+        "signing_time_us": 30000.0,
+        "verification_us": 932207.5
+      },
+      "generated_messages": 60000,
+      "delivered_messages": 1331725,
+      "verified_messages": 1331725,
+      "bytes_on_wire": 1141238441,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 14,
+      "vehicles": 100,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 24270674.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 173859490.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 173859490.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 242706.74,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 1738594.9,
+        "signing_time_us": 60000.0,
+        "verification_us": 1738594.9
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 2483707,
+      "verified_messages": 2483707,
+      "bytes_on_wire": 2129848021,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 15,
+      "vehicles": 100,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 21755273.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 175645050.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 175645050.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 217552.73,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 1756450.5,
+        "signing_time_us": 60000.0,
+        "verification_us": 1756450.5
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 2509215,
+      "verified_messages": 2509215,
+      "bytes_on_wire": 2151721524,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 16,
+      "vehicles": 100,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 20850452.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 184547440.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 184547440.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 208504.52,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 1845474.4,
+        "signing_time_us": 60000.0,
+        "verification_us": 1845474.4
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 2636392,
+      "verified_messages": 2636392,
+      "bytes_on_wire": 2261311383,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 17,
+      "vehicles": 100,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 21531216.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 186443670.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 186443670.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 215312.16,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 1864436.7,
+        "signing_time_us": 60000.0,
+        "verification_us": 1864436.7
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 2663481,
+      "verified_messages": 2663481,
+      "bytes_on_wire": 2284547269,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 18,
+      "vehicles": 100,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 33621458.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 9000000.0,
+        "decryption_time_us": 260772190.0,
+        "signing_time_us": 9000000.0,
+        "verification_us": 260772190.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 336214.58,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 2607721.9,
+        "signing_time_us": 90000.0,
+        "verification_us": 2607721.9
+      },
+      "generated_messages": 180000,
+      "delivered_messages": 3725317,
+      "verified_messages": 3725317,
+      "bytes_on_wire": 3197999355,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 19,
+      "vehicles": 100,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 38442002.0,
+        "key_generation_time_us": 1000.0,
+        "encryption_time_us": 9000000.0,
+        "decryption_time_us": 276810940.0,
+        "signing_time_us": 9000000.0,
+        "verification_us": 276810940.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 384420.02,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 2768109.4,
+        "signing_time_us": 90000.0,
+        "verification_us": 2768109.4
+      },
+      "generated_messages": 180000,
+      "delivered_messages": 3954442,
+      "verified_messages": 3954442,
+      "bytes_on_wire": 3395489796,
+      "memory_usage_bytes": 320000
+    },
+    {
+      "run_number": 20,
+      "vehicles": 200,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 38569638.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 342674780.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 342674780.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 192848.19,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 1713373.9,
+        "signing_time_us": 30000.0,
+        "verification_us": 1713373.9
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 4895354,
+      "verified_messages": 4895354,
+      "bytes_on_wire": 4198485653,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 21,
+      "vehicles": 200,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 41758352.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 346194800.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 346194800.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 208791.76,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 1730974.0,
+        "signing_time_us": 30000.0,
+        "verification_us": 1730974.0
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 4945640,
+      "verified_messages": 4945640,
+      "bytes_on_wire": 4241613009,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 22,
+      "vehicles": 200,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 51630696.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 369596640.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 369596640.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 258153.48,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 1847983.2,
+        "signing_time_us": 30000.0,
+        "verification_us": 1847983.2
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 5279952,
+      "verified_messages": 5279952,
+      "bytes_on_wire": 4528806661,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 23,
+      "vehicles": 200,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 39304525.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 6000000.0,
+        "decryption_time_us": 373390360.0,
+        "signing_time_us": 6000000.0,
+        "verification_us": 373390360.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 196522.625,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 1866951.8,
+        "signing_time_us": 30000.0,
+        "verification_us": 1866951.8
+      },
+      "generated_messages": 120000,
+      "delivered_messages": 5334148,
+      "verified_messages": 5334148,
+      "bytes_on_wire": 4575292994,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 24,
+      "vehicles": 200,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 72161805.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 12000000.0,
+        "decryption_time_us": 685349140.0,
+        "signing_time_us": 12000000.0,
+        "verification_us": 685349140.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 360809.025,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 3426745.7,
+        "signing_time_us": 60000.0,
+        "verification_us": 3426745.7
+      },
+      "generated_messages": 240000,
+      "delivered_messages": 9790702,
+      "verified_messages": 9790702,
+      "bytes_on_wire": 8406475738,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 25,
+      "vehicles": 200,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 83600350.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 12000000.0,
+        "decryption_time_us": 692389880.0,
+        "signing_time_us": 12000000.0,
+        "verification_us": 692389880.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 418001.75,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 3461949.4,
+        "signing_time_us": 60000.0,
+        "verification_us": 3461949.4
+      },
+      "generated_messages": 240000,
+      "delivered_messages": 9891284,
+      "verified_messages": 9891284,
+      "bytes_on_wire": 8492837137,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 26,
+      "vehicles": 200,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 87920796.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 12000000.0,
+        "decryption_time_us": 739259220.0,
+        "signing_time_us": 12000000.0,
+        "verification_us": 739259220.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 439603.98,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 3696296.1,
+        "signing_time_us": 60000.0,
+        "verification_us": 3696296.1
+      },
+      "generated_messages": 240000,
+      "delivered_messages": 10560846,
+      "verified_messages": 10560846,
+      "bytes_on_wire": 9068679761,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 27,
+      "vehicles": 200,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 96472425.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 12000000.0,
+        "decryption_time_us": 746802070.0,
+        "signing_time_us": 12000000.0,
+        "verification_us": 746802070.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 482362.125,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 3734010.35,
+        "signing_time_us": 60000.0,
+        "verification_us": 3734010.35
+      },
+      "generated_messages": 240000,
+      "delivered_messages": 10668601,
+      "verified_messages": 10668601,
+      "bytes_on_wire": 9161209765,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 28,
+      "vehicles": 200,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 131342807.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 18000000.0,
+        "decryption_time_us": 1028086640.0,
+        "signing_time_us": 18000000.0,
+        "verification_us": 1028086640.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 656714.035,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 5140433.2,
+        "signing_time_us": 90000.0,
+        "verification_us": 5140433.2
+      },
+      "generated_messages": 360000,
+      "delivered_messages": 14686952,
+      "verified_messages": 14686952,
+      "bytes_on_wire": 12621768783,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 29,
+      "vehicles": 200,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 122906439.0,
+        "key_generation_time_us": 2000.0,
+        "encryption_time_us": 18000000.0,
+        "decryption_time_us": 1108916200.0,
+        "signing_time_us": 18000000.0,
+        "verification_us": 1108916200.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 614532.195,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 5544581.0,
+        "signing_time_us": 90000.0,
+        "verification_us": 5544581.0
+      },
+      "generated_messages": 360000,
+      "delivered_messages": 15841660,
+      "verified_messages": 15841660,
+      "bytes_on_wire": 13615525157,
+      "memory_usage_bytes": 640000
+    },
+    {
+      "run_number": 30,
+      "vehicles": 400,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 174960495.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 12000000.0,
+        "decryption_time_us": 1364629980.0,
+        "signing_time_us": 12000000.0,
+        "verification_us": 1364629980.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 437401.2375,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 3411574.95,
+        "signing_time_us": 30000.0,
+        "verification_us": 3411574.95
+      },
+      "generated_messages": 240000,
+      "delivered_messages": 19494714,
+      "verified_messages": 19494714,
+      "bytes_on_wire": 16735385134,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 31,
+      "vehicles": 400,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 195970501.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 12000000.0,
+        "decryption_time_us": 1378590080.0,
+        "signing_time_us": 12000000.0,
+        "verification_us": 1378590080.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 489926.2525,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 3446475.2,
+        "signing_time_us": 30000.0,
+        "verification_us": 3446475.2
+      },
+      "generated_messages": 240000,
+      "delivered_messages": 19694144,
+      "verified_messages": 19694144,
+      "bytes_on_wire": 16906586245,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 32,
+      "vehicles": 400,
+      "duration_seconds": 60.0,
+      "timing_totals_us": {
+        "execution_time_us": 161807957.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 12000000.0,
+        "decryption_time_us": 1455851180.0,
+        "signing_time_us": 12000000.0,
+        "verification_us": 1455851180.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 404519.8925,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 30000.0,
+        "decryption_time_us": 3639627.95,
+        "signing_time_us": 30000.0,
+        "verification_us": 3639627.95
+      },
+      "generated_messages": 240000,
+      "delivered_messages": 20797874,
+      "verified_messages": 20797874,
+      "bytes_on_wire": 17853555428,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 33,
+      "vehicles": 400,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 343283668.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 24000000.0,
+        "decryption_time_us": 2729298880.0,
+        "signing_time_us": 24000000.0,
+        "verification_us": 2729298880.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 858209.17,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 6823247.2,
+        "signing_time_us": 60000.0,
+        "verification_us": 6823247.2
+      },
+      "generated_messages": 480000,
+      "delivered_messages": 38989984,
+      "verified_messages": 38989984,
+      "bytes_on_wire": 33500092820,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 34,
+      "vehicles": 400,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 343118679.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 24000000.0,
+        "decryption_time_us": 2757123670.0,
+        "signing_time_us": 24000000.0,
+        "verification_us": 2757123670.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 857796.6975,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 6892809.175,
+        "signing_time_us": 60000.0,
+        "verification_us": 6892809.175
+      },
+      "generated_messages": 480000,
+      "delivered_messages": 39387481,
+      "verified_messages": 39387481,
+      "bytes_on_wire": 33841618304,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 35,
+      "vehicles": 400,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 374480405.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 24000000.0,
+        "decryption_time_us": 2911632500.0,
+        "signing_time_us": 24000000.0,
+        "verification_us": 2911632500.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 936201.0125,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 7279081.25,
+        "signing_time_us": 60000.0,
+        "verification_us": 7279081.25
+      },
+      "generated_messages": 480000,
+      "delivered_messages": 41594750,
+      "verified_messages": 41594750,
+      "bytes_on_wire": 35737022207,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 36,
+      "vehicles": 400,
+      "duration_seconds": 120.0,
+      "timing_totals_us": {
+        "execution_time_us": 353952195.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 24000000.0,
+        "decryption_time_us": 2941283660.0,
+        "signing_time_us": 24000000.0,
+        "verification_us": 2941283660.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 884880.4875,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 60000.0,
+        "decryption_time_us": 7353209.15,
+        "signing_time_us": 60000.0,
+        "verification_us": 7353209.15
+      },
+      "generated_messages": 480000,
+      "delivered_messages": 42018338,
+      "verified_messages": 42018338,
+      "bytes_on_wire": 36100956546,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 37,
+      "vehicles": 400,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 521897541.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 36000000.0,
+        "decryption_time_us": 4093937610.0,
+        "signing_time_us": 36000000.0,
+        "verification_us": 4093937610.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 1304743.8525,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 10234844.025,
+        "signing_time_us": 90000.0,
+        "verification_us": 10234844.025
+      },
+      "generated_messages": 720000,
+      "delivered_messages": 58484823,
+      "verified_messages": 58484823,
+      "bytes_on_wire": 50290421947,
+      "memory_usage_bytes": 1280000
+    },
+    {
+      "run_number": 38,
+      "vehicles": 400,
+      "duration_seconds": 180.0,
+      "timing_totals_us": {
+        "execution_time_us": 493236868.0,
+        "key_generation_time_us": 4000.0,
+        "encryption_time_us": 36000000.0,
+        "decryption_time_us": 4367414520.0,
+        "signing_time_us": 36000000.0,
+        "verification_us": 4367414520.0
+      },
+      "timing_per_vehicle_us": {
+        "execution_time_us": 1233092.17,
+        "key_generation_time_us": 10.0,
+        "encryption_time_us": 90000.0,
+        "decryption_time_us": 10918536.3,
+        "signing_time_us": 90000.0,
+        "verification_us": 10918536.3
+      },
+      "generated_messages": 720000,
+      "delivered_messages": 62391636,
+      "verified_messages": 62391636,
+      "bytes_on_wire": 53648228150,
+      "memory_usage_bytes": 1280000
+    }
+  ]
+}
